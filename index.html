@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Document</title>
+  <style>
+    html, body {
+      padding: 0;
+      margin: 0;
+    }
+    .img-wrapper {
+      position: relative;
+    }
+    .pointer {
+      pointer-events: none;
+      position: absolute;
+      cursor: crosshair;
+      z-index: 2;
+      top: 0;
+      left: 0;
+      width: 20px;
+      height: 20px;
+      border-radius: 10px;
+      background-color: rgba(255, 255, 255, 0.4);
+      border: solid 2px red;
+      box-sizing: border-box;
+    }
+    #coords {
+      position: absolute;
+      right: 30px;
+      width: 70px;
+      text-shadow: 2px 2px #FFFFFF;
+    }
+    canvas {
+      position: relative;
+      z-index: 1;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="img-wrapper">
+    <div class="pointer"><span id="coords"></span></div>
+    <canvas id="canvas"></canvas>
+    <img class="img" style="display: none" src="https://www.botb.com/umbraco/botb/spottheball/getcompetitionpicture/?competitionpictureguid=ec1bdda8-b08b-48f4-a0b7-e0681fec487a&size=full&1497101597961"/>
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>
