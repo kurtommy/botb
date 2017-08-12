@@ -11,6 +11,9 @@ In the pointer you'll get the x and y coodrs, and the number of points included 
 Click on the player eyes (zoom the img for high precision) and move the mouse to find the best coords for the hidden ball. 
 If you want to reset the points/lines refresh the page.
 
+### URL to play
+https://kurtommy.github.io/botb/
+
 
 PR are wellcome
 
