@@ -14,5 +14,5 @@ If you want to reset the points/lines refresh the page.
 
 PR are wellcome
 
-# Disclamier: 
+### Disclamier: 
 This is only a simple tools, not tested, and is not related with botb website at all. Use at your discretion
